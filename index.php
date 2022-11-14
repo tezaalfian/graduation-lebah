@@ -15,6 +15,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -112,6 +113,13 @@
       </div>
     </div>
   </section>
+
+  <button class="btn btn-dark" id="btn-play" data-play="0"><i class='bx bx-volume-mute'></i></button>
+
+  <audio id="myAudio">
+    <source src="assets/sound/backsound.mp3" type="audio/mpeg">
+    <source src="assets/sound/backsound.ogg" type="audio/ogg">
+  </audio>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>

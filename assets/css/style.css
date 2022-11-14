@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 header {
@@ -51,4 +52,11 @@ header {
 
 .pacifico {
     font-family: 'Pacifico', cursive;
+}
+
+#btn-play {
+    bottom: 10px;
+    left: 10px;
+    z-index: 999;
+    position: fixed;
 }
