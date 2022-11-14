@@ -15,21 +15,6 @@
     }
   });
 
-  // new Swiper('.ucapan-slider', {
-  //   speed: 600,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false
-  //   },
-  //   slidesPerView: 'auto',
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   }
-  // });
-
   lightGallery(document.getElementById('lightgallery'), {
     plugins: [lgZoom, lgThumbnail],
     licenseKey: 'your_license_key',

@@ -23,8 +23,9 @@ header {
 
 .img-cover {
     position: relative;
-    width: 30%;
+    width: 25%;
     margin: 15px auto;
+    box-shadow: -2px 3px 7px 1px rgba(33, 37, 41, 0.3);
 }
 
 .img-cover::after {

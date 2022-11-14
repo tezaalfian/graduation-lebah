@@ -38,24 +38,36 @@
           'name' => 'Rahmat Dipo Setyadin,. S.T',
           'aka' => '_Julukan_',
           'ket' => 'Hallo bang!! Bang dipo yang gasuka nasi wkwk. Yang paling diinget dari bang dipo itu kalo pas lagi meeting mingguan pasti suka di tinggal anggotanya wkw, yaa Namanya juga lagi online yaa bang (tapi mohon maaf yaa bang hehe itu antara sengaja dan tidak wkwk). Bang dipo kalo ke lab pasti suka diem dulu sok cool habis tu baru bisa random di tanya – tanya (gatau tuh kenapa), tapi kalo bahas sesuatu seru banget pasti bang dipo ngasi saran terbaik. Bang dipo ituuu kalo di avangers kayak captain America, gatau juga ni kenapa mungkin karena koor kali ya wkwk. Bang dipo dulu sering di gosipin sama anak kelas F AP 1 katanya abang aslabnya ganteng wkw, gausa kepedean bang soalnya yang gosipin owen wkwk tapi kalo di liat -  liat emang cakep si haha. Yakali pas wisuda ga cakep yaa bang. Ga kerasa yaaa, bang dipo udah gede aja ehh wkkw, maksudnya uda lulus nii uda wisuda dan uda officially punya gelar S.T. Do’anya sukses terus aja si bang, tapi jan sombong – sombong laa bang! Main la ke lab ya, main uno kitaaa ',
-          'foto' => 'assets/img/dipo.jpg'
+          'foto' => 'assets/img/dipo.png'
         ],
         [
           'name' => 'M. Luthfi Arsyad,. S.T',
           'aka' => '_Julukan_',
           'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
-          'foto' => 'assets/img/dipo.jpg'
+          'foto' => 'assets/img/luthfi.png'
         ],
         [
           'name' => 'Brigita Tiora,. S.T',
           'aka' => '_Julukan_',
           'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
-          'foto' => 'assets/img/dipo.jpg'
+          'foto' => 'assets/img/brigi.png'
+        ],
+        [
+          'name' => 'Ayu Rizkyca Awalia,. S.T',
+          'aka' => '_Julukan_',
+          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'foto' => 'assets/img/ayu.png'
+        ],
+        [
+          'name' => 'Lailil Ayu Fitriyah,. S.T',
+          'aka' => '_Julukan_',
+          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'foto' => 'assets/img/lailil.png'
         ],
       ];
       ?>
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-md-7 text-center">
+        <div class="col-md-9 text-center">
           <div class="swiper testimonials-slider">
             <div class="swiper-wrapper">
               <?php foreach ($testi as $val) : ?>
@@ -86,7 +98,10 @@
         if ($dh = opendir($dir)) {
           while (($file = readdir($dh)) !== false) {
             if ($file != "." && $file != "..") {
-              $photos[] = $dir . "/" . $file;
+              $photos[] = [
+                'photo' => $dir . "/" . $file,
+                'alt' => $file
+              ];
             }
           }
           closedir($dh);
@@ -96,8 +111,8 @@
       <hr>
       <div class="row" id="lightgallery" data-aos="fade-up" data-aos-delay="100">
         <?php foreach ($photos as $val) : ?>
-          <a class="col-md-3 col-6 mb-3" href="<?= $val ?>" data-lg-size="1024-800">
-            <img alt="img" src="<?= $val ?>" class="img-thumbnail" />
+          <a class="col-md-3 col-6 mb-3" href="<?= $val['photo'] ?>" data-lg-size="1024-800">
+            <img alt="<?= $val['alt'] ?>" src="<?= $val['photo'] ?>" class="img-thumbnail" />
           </a>
         <?php endforeach; ?>
       </div>
