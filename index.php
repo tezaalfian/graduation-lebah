@@ -14,22 +14,23 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="text-white">
     <div class="container text-center">
-      <h1 class="display-1">Happy Graduation</h1>
-      <h1 class="display-3 pacifico"><?= empty($_GET['to']) ? 'Lebah Idaman' : $_GET['to'] ?></h1>
-      <p class="dancing">"Tidak ada yang pergi dari hati. Tidak ada yang hilang dari sebuah kenangan"</p>
+      <h1 class="display-1" data-aos="fade-up">Happy Graduation</h1>
+      <h1 class="display-3 pacifico" data-aos="fade-up" data-aos-delay="100"><?= empty($_GET['to']) ? 'Lebah Idaman' : $_GET['to'] ?></h1>
+      <p data-aos="fade-up" class="dancing" data-aos-delay="200">"Tidak ada yang pergi dari hati. Tidak ada yang hilang dari sebuah kenangan"</p>
     </div>
   </header>
 
   <section class="height-100 py-5">
     <div class="container">
-      <h1 class="text-center display-4">Selamat S.T Para Lebah Idaman</h1>
+      <h1 class="text-center display-4" data-aos="fade-up">Selamat S.T Para Lebah Idaman</h1>
       <hr>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-7 text-center">
           <div class="swiper testimonials-slider">
             <div class="swiper-wrapper">
@@ -50,7 +51,7 @@
 
   <section class="height-100 py-5">
     <div class="container">
-      <h1 class="text-center display-4">From Us To You</h1>
+      <h1 class="text-center display-4" data-aos="fade-up">From Us To You</h1>
       <?php
       $dir = "assets/img/ucapan";
       $photos = [];
@@ -69,7 +70,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="row justify-content-center">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
               <div class="swiper testimonials-slider">
                 <div class="swiper-wrapper">
                   <?php foreach ($photos as $val) : ?>
@@ -87,35 +88,8 @@
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script>
-    (function() {
-      "use strict";
-      new Swiper('.testimonials-slider', {
-        speed: 600,
-        loop: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false
-        },
-        slidesPerView: 'auto',
-        pagination: {
-          el: '.swiper-pagination',
-          type: 'bullets',
-          clickable: true
-        }
-      });
-
-      new Swiper('.ucapan-slider', {
-        speed: 600,
-        loop: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false
-        },
-        slidesPerView: 'auto'
-      });
-    })()
-  </script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
