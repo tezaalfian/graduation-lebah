@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/vendor/lg/lightgallery-bundle.min.css">
 </head>
 
 <body>
@@ -93,23 +94,12 @@
       }
       ?>
       <hr>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row justify-content-center">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper ucapan-slider">
-                <div class="swiper-wrapper">
-                  <?php foreach ($photos as $val) : ?>
-                    <div class="swiper-slide">
-                      <img src="<?= $val ?>" alt="Ucapan" class="img-thumbnail">
-                    </div>
-                  <?php endforeach; ?>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row" id="lightgallery" data-aos="fade-up" data-aos-delay="100">
+        <?php foreach ($photos as $val) : ?>
+          <a class="col-md-3 col-6 mb-3" href="<?= $val ?>" data-lg-size="1024-800">
+            <img alt="img" src="<?= $val ?>" class="img-thumbnail" />
+          </a>
+        <?php endforeach; ?>
       </div>
     </div>
   </section>
@@ -123,6 +113,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/lg/lightgallery.min.js"></script>
+  <script src="assets/vendor/lg/lg-zoom.min.js"></script>
+  <script src="assets/vendor/lg/lg-thumbnail.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 
