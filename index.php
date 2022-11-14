@@ -30,19 +30,44 @@
     <div class="container">
       <h1 class="text-center display-4" data-aos="fade-up">Selamat S.T Para Lebah Idaman</h1>
       <hr>
+      <?php
+      $testi = [
+        [
+          'name' => 'Rahmat Dipo Setyadin,. S.T',
+          'aka' => '_Julukan_',
+          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'foto' => 'assets/img/dipo.jpg'
+        ],
+        [
+          'name' => 'M. Luthfi Arsyad,. S.T',
+          'aka' => '_Julukan_',
+          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'foto' => 'assets/img/dipo.jpg'
+        ],
+        [
+          'name' => 'Brigita Tiora,. S.T',
+          'aka' => '_Julukan_',
+          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'foto' => 'assets/img/dipo.jpg'
+        ],
+      ];
+      ?>
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-7 text-center">
           <div class="swiper testimonials-slider">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="img-cover">
-                  <img src="assets/img/dipo.jpg" alt="Dipo" class="img-fluid">
+              <?php foreach ($testi as $val) : ?>
+                <div class="swiper-slide">
+                  <div class="img-cover">
+                    <img src="<?= $val['foto'] ?>" alt="<?= $val['name'] ?>" class="img-fluid">
+                  </div>
+                  <h2 class="pacifico"><?= $val['name'] ?></h2>
+                  <h4><?= $val['aka'] ?></h4>
+                  <p class="dancing">"<?= $val['ket'] ?>"</p>
                 </div>
-                <h2 class="pacifico">Rahmat Dipo Setyadin,. S.T</h2>
-                <h4>_Julukan_</h4>
-                <p class="dancing">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga consequatur eos nemo est autem quisquam non veritatis illo eius, esse mollitia laborum cum, vitae maiores atque error officia! Est, aliquam."</p>
-              </div>
+              <?php endforeach; ?>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
@@ -71,7 +96,7 @@
         <div class="col-md-12">
           <div class="row justify-content-center">
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper testimonials-slider">
+              <div class="swiper ucapan-slider">
                 <div class="swiper-wrapper">
                   <?php foreach ($photos as $val) : ?>
                     <div class="swiper-slide">
@@ -79,6 +104,7 @@
                     </div>
                   <?php endforeach; ?>
                 </div>
+                <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
