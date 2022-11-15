@@ -10,12 +10,12 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/favicon.ico" rel="apple-touch-icon">
+  <meta name="description" content="Lebah Idaman">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link href="assets/vendor/aos/aos.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/lg/lightgallery-bundle.min.css">
 </head>
 
@@ -73,7 +73,7 @@
               <?php foreach ($testi as $val) : ?>
                 <div class="swiper-slide">
                   <div class="img-cover">
-                    <img src="<?= $val['foto'] ?>" alt="<?= $val['name'] ?>" class="img-fluid">
+                    <img src="<?= $val['foto'] ?>" alt="<?= $val['name'] ?>" class="img-fluid" loading="lazy">
                   </div>
                   <h2 class="pacifico"><?= $val['name'] ?></h2>
                   <h4><?= $val['aka'] ?></h4>
@@ -112,14 +112,18 @@
       <div class="row" id="lightgallery" data-aos="fade-up" data-aos-delay="100">
         <?php foreach ($photos as $val) : ?>
           <a class="col-md-3 col-6 mb-3" href="<?= $val['photo'] ?>" data-lg-size="1024-800">
-            <img alt="<?= $val['alt'] ?>" src="<?= $val['photo'] ?>" class="img-thumbnail" />
+            <img alt="<?= $val['alt'] ?>" src="<?= $val['photo'] ?>" class="img-thumbnail" loading="lazy"/>
           </a>
         <?php endforeach; ?>
       </div>
     </div>
   </section>
 
-  <button class="btn btn-dark" id="btn-play" data-play="0"><i class='bx bx-volume-mute'></i></button>
+  <button class="btn btn-dark btn-lg" id="btn-play" data-play="0">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+      <path d="m21.707 20.293-2.023-2.023A9.566 9.566 0 0 0 21.999 12c0-4.091-2.472-7.453-5.999-9v2c2.387 1.386 3.999 4.047 3.999 7a8.113 8.113 0 0 1-1.672 4.913l-1.285-1.285C17.644 14.536 18 13.19 18 12c0-1.771-.775-3.9-2-5v7.586l-2-2V4a1 1 0 0 0-1.554-.832L7.727 6.313l-4.02-4.02-1.414 1.414 18 18 1.414-1.414zM12 5.868v4.718L9.169 7.755 12 5.868zM4 17h2.697l5.748 3.832a1.004 1.004 0 0 0 1.027.05A1 1 0 0 0 14 20v-1.879l-2-2v2.011l-4.445-2.964c-.025-.017-.056-.02-.082-.033a.986.986 0 0 0-.382-.116C7.059 15.016 7.032 15 7 15H4V9h.879L3.102 7.223A1.995 1.995 0 0 0 2 9v6c0 1.103.897 2 2 2z"></path>
+    </svg>
+  </button>
 
   <audio id="myAudio">
     <source src="assets/sound/backsound.mp3" type="audio/mpeg">
@@ -127,7 +131,7 @@
   </audio>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/aos/aos.min.js"></script>
   <script src="assets/vendor/lg/lightgallery.min.js"></script>
   <script src="assets/vendor/lg/lg-zoom.min.js"></script>
   <script src="assets/vendor/lg/lg-thumbnail.min.js"></script>
