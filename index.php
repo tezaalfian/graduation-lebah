@@ -36,32 +36,27 @@
       $testi = [
         [
           'name' => 'Rahmat Dipo Setyadin,. S.T',
-          'aka' => '_Julukan_',
-          'ket' => 'Hallo bang!! Bang dipo yang gasuka nasi wkwk. Yang paling diinget dari bang dipo itu kalo pas lagi meeting mingguan pasti suka di tinggal anggotanya wkw, yaa Namanya juga lagi online yaa bang (tapi mohon maaf yaa bang hehe itu antara sengaja dan tidak wkwk). Bang dipo kalo ke lab pasti suka diem dulu sok cool habis tu baru bisa random di tanya – tanya (gatau tuh kenapa), tapi kalo bahas sesuatu seru banget pasti bang dipo ngasi saran terbaik. Bang dipo ituuu kalo di avangers kayak captain America, gatau juga ni kenapa mungkin karena koor kali ya wkwk. Bang dipo dulu sering di gosipin sama anak kelas F AP 1 katanya abang aslabnya ganteng wkw, gausa kepedean bang soalnya yang gosipin owen wkwk tapi kalo di liat -  liat emang cakep si haha. Yakali pas wisuda ga cakep yaa bang. Ga kerasa yaaa, bang dipo udah gede aja ehh wkkw, maksudnya uda lulus nii uda wisuda dan uda officially punya gelar S.T. Do’anya sukses terus aja si bang, tapi jan sombong – sombong laa bang! Main la ke lab ya, main uno kitaaa ',
+          'ket' => "Hallo bang!! Bang dipo yang gasuka nasi wkwk. Yang paling diinget dari bang dipo itu kalo pas lagi meeting mingguan pasti suka di tinggal anggotanya wkw, yaa Namanya juga lagi online yaa bang (tapi mohon maaf yaa bang hehe itu antara sengaja dan tidak wkwk). Bang dipo kalo ke lab pasti suka diem dulu sok cool habis tu baru bisa random di tanya – tanya (gatau tuh kenapa), tapi kalo bahas sesuatu seru banget pasti bang dipo ngasi saran terbaik. Bang dipo ituuu kalo di avangers kayak captain America, gatau juga ni kenapa mungkin karena koor kali ya wkwk. Bang dipo dulu sering di gosipin sama anak kelas F AP 1 katanya abang aslabnya ganteng wkw, gausa kepedean bang soalnya yang gosipin owen wkwk tapi kalo di liat -  liat emang cakep si haha. Yakali pas wisuda ga cakep yaa bang. Ga kerasa yaaa, bang dipo udah gede aja ehh wkkw, maksudnya uda lulus nii uda wisuda dan uda officially punya gelar S.T. Do’anya sukses terus aja si bang, tapi jan sombong – sombong laa bang! Main la ke lab ya, main uno kitaaa",
           'foto' => 'assets/img/dipo.png'
         ],
         [
           'name' => 'M. Luthfi Arsyad,. S.T',
-          'aka' => '_Julukan_',
-          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'ket' => "Hollaa bang!! Bang luthfi yang paling random. Semuanya bisa di certain semuanya bisa di jadiin bahan sharing, pantesan ada orang yang bilang bang luthfi ga ngebosenin tu BENER bangett!! Dari pertama kali ketemu emang rajin banget speak, Tapi itu ciri khasnya. Kalo di avengers bang luthfi itu kayak tony stark alias ironman!! Mungkin karena ya random dan pandai ngejoks kali ya. Bang luthfi yang kalo baru masuk lab aja langsung hai!! Senyum – senyum wkwk, ramah banget si bang kenape?! Abang tu berkharisma wkwk sampe ada aja temen ku yang kagum hihi. Kalo di tengok dan di perhaatiin dengan postur yang memadai bang luthfi emang kharismatik si, yaiyalah yakali anak IT PLN ga berkarisma orang wajib ikut Karisma wkwk, Kalo ga ikut LDKM adaa salah satunya ya abang wkwk, yang suka koar – koar udaah dek, abang aja ga ikut LDKM kok masih banyak temennya!! And finally itu bener si bang wkwk, beli jakjur rasanya useless haha. Anyways, alhamdulillah yaa bang abang uda semakin tinggi sekarang maksudnya semakin tua kan semakin tinggi wkkw. Uda punya gelar setelah nama abang yang sering banget typo tu feirdy nya wkwk. Uda S.T gimana ga keren coba huhu. Do’anya sama si sukses terus aja yaa bang, jan sombing – sombing!! Main ke lab uda lama ni gamain uno bareng !!",
           'foto' => 'assets/img/luthfi.png'
         ],
         [
           'name' => 'Brigita Tiora,. S.T',
-          'aka' => '_Julukan_',
-          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'ket' => "Holla Holli Bang Brigi!!Bang brigi yang ternyata diam – diam suka bercanda. Yang selalu menjadi sumber untuk ditanya – tanya. Funfact aja ni ya bang hihi, Awal tau nama abang brigi agak aneh apalagi nama belakang abang juga saya baru banget denger Tiora gitu. Dan ternyata abang cowok, menakjubkan! Plot twist banget deh wkwk. Bang brigi sangat mengayomi si selama kami di lab, walaupun kalo uda lama ga ketemu terus suatu hari kita ketemu lagi pasti suka jadi agak canggung lagi hihi. Kalo di marvel bang brigi ini layaknya Black Panther ya, karena memang mengayomi kami dan loyal sama lab. Dan pas tau bang brigi ternyata suka lagu pantura kayak Hendra wa asli lucu banget dahh. Kalo dulu ada tugas, pasti temen – temenku bilang, nanya nya ke bang brigi ajaaa baik dan fast respon juga. Memang terdebest. Ga kerasa ni bang abang sudah beranjak semakin dewasa, takut ga bang tambah dewasa ehh wkwk. Maksudnya gimana exited kan bang, kami aja bangga banget bang brigi uda sampai sekeren ini. Do’a nya sama seperti untuk kakak abang yang lain yaitu sukses terus bang lahir dan batin, jan sungkan – sungkan main ke lab. Karena abang keknya belum pernah main uno bareng ni. Apa  uda ya lupa. Anyway, bang pokoknya anggep aja belom supaya abang mau main ke lab wkkw.",
           'foto' => 'assets/img/brigi.png'
         ],
         [
           'name' => 'Ayu Rizkyca Awalia,. S.T',
-          'aka' => '_Julukan_',
-          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'ket' => "Yuhuuu halo halo kak ayuuu. Kak ayu si istri idaman. Asli deh Ketika tau keseharian kak ayu gimana, maksudnya ya secara garis besar gitu kehidupan kak ayu gimana, kayak, WOW kok bisaaa. Kakak masak iya, nanam tanaman iya, kerajinan iya, kajian iya. Apa coba yang kurang asekk. Yang kurang mas crush si wkkw. Istri able deh pokoknya kak ayu wkwk. Sampe yang pas tau kak ayu jualan bubur itu tu kayak kok kak ayu bisa gitu, jualan tu kan kadang ada aja orang yang bisa ini bisa itu tapi gabisa pitching untuk jualan gitu kan. Tapi kakak bisa juga, rajin – rajin bersyukur deh kak karena kakak banyak kelebihannya hihi. Kakak kalau di marvel itu kayak Scarlet Witch, istriable hehe. Dahh uda ga kerasa yaa kak, waktu berputar wkw. Beloman aja kita tu deket ketemu langsung terus yakan, yaa emang Cuma di akhir episode ketemu langsungnya tapi alhamdulillah. Kak ayu sudah officially punya gelar yang mantuliti di belakang nama kak ayu. Yang pastinya sangat keren sekali permisah, Doa dan harapannya tetep sama sih semoga kakak sukses selalu dan ga lupain lab sama aslabnya tentunya wkw, jangan lupa mampir kak kalo lagi ada kesempatan. Kayak nya kakak ga pernah duel sama kita buat main uno ni wkw.",
           'foto' => 'assets/img/ayu.png'
         ],
         [
           'name' => 'Lailil Ayu Fitriyah,. S.T',
-          'aka' => '_Julukan_',
-          'ket' => 'lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.',
+          'ket' => "piw piw piw halloww kak lailil, kakak si paling lembut padahal mah eumm. Memang lembut wkwk, kakak baik banget banget walaupun kadang suka miss understanding ya kak, tapi kayak itu lucu nya disitu gitu wkw. Dan, kakak keren banget karena uda reach goals – goals besar kayak magang di jasa marga, di ruang guru juga keren deh. Emang agak jarang jumpa si tapi yang selalu diingat dari sosok kak lailil adalah  senyumnya. Bener – bener khas banget senyum kakak itu, kakak kalau di avangers tu kayak captain marvel. So powerfull hehe. Alhamdulillah seneng banget melihat senyum kakak semakin lebar selebar daun pisang. Eh ngga maksudnya ya seneng lihat kebahagiaan kakak yang sekarang sudah officially sebagai lulusan sarjana strata satu. Huu keren bingitss. Doanya yaa sama juga kakak semoga sukses selalu dimana pun dan kapan pun kakak berada. Jangan sampai ngga main ke lab kak. Karena kakak adalah keluarga kami, malah kami sedih kalo ga di tengokin, pengen banget main uno. Siap – siap aja kalah yaa kak karena kamu jago wkwk.",
           'foto' => 'assets/img/lailil.png'
         ],
       ];
@@ -76,7 +71,6 @@
                     <img src="<?= $val['foto'] ?>" alt="<?= $val['name'] ?>" class="img-fluid" loading="lazy">
                   </div>
                   <h2 class="pacifico"><?= $val['name'] ?></h2>
-                  <h4><?= $val['aka'] ?></h4>
                   <p class="dancing">"<?= $val['ket'] ?>"</p>
                 </div>
               <?php endforeach; ?>
